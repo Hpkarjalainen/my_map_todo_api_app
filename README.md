@@ -19,15 +19,20 @@ This is a simple React Native app that demonstrates various features and screens
 
 4. **Todo Screen**
    - The todo screen allows users to create and manage a list of todos.
+   - Todos are stored using react native async storage-library
    - Users can add new todos and clear stored data.
    - The button style is consistent with the rest of the app.
 
+The App component serves as the entry point for the app and sets up navigation using React Navigation. It defines different screens that users can navigate to.
+
 ## Screenshots
 
-![Home Screen](/screenshots/screenshot1)
-![Map Screen](/screenshots/screenshot1.png)
-![Random Facts Screen](/screenshots/screenshot1.png)
-![Todo Screen](/screenshots/screenshot1.png)
+<div style="display: flex; margin-bottom: 20px;">
+  <img src="/Screenshots/HomeScreen.jpg" alt="Home Screen" style="margin-right: 20px;" width="200" />
+  <img src="/Screenshots/MapScreen.jpg" alt="Map Screen" style="margin-right: 20px;" width="200" />
+  <img src="/Screenshots/JokesScreen.jpg" alt="Jokes Screen" style="margin-right: 20px;" width="200" />
+  <img src="/Screenshots/TodoScreen.jpg" alt="Todo Screen" width="200" />
+</div>
 
 ## Usage
 
@@ -46,3 +51,7 @@ To use this app, follow these steps:
 - Expo
 - react-native-maps
 - @react-native-async-storage/async-storage
+
+- ## Source
+
+This app was developed as part of a learning project. You can watch the tutorial on how to create react navigation on YouTube: [Tutorial Video](https://youtu.be/EYndFNKgpTA?si=xxFR9LW8kf_PFsut).

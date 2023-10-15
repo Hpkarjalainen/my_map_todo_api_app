@@ -1,20 +1,37 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import HomeScreen from './screens/HomeScreen';
+import MapScreen from './screens/MapScreen';
+import TodoScreen from './screens/TodoScreen';
+import RandomFactsScreen from './screens/RandomJokesScreen';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { NavigationContainer } from '@react-navigation/native';
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home"
+          component={HomeScreen}
+          options={{ title: "Home screen" }}
+        />
+        <Stack.Screen name="Map"
+          component={MapScreen}
+          options={{ title: "Map screen" }}
+        />
+        <Stack.Screen name="random"
+          component={RandomFactsScreen}
+          options={{ title: "Jokes screen" }}
+        />
+        <Stack.Screen name="todos"
+          component={TodoScreen}
+          options={{ title: "Todo screen" }}
+        />
+
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+

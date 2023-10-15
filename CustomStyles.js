@@ -1,0 +1,33 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  buttonContainer: {
+    width: '80%',
+    marginBottom: 15,
+  },
+  pressableButton: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 15,
+    borderRadius: 10,
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 18,
+  },
+  jokeText: {
+    fontSize: 24,
+    paddingBottom: 20,
+    paddingHorizontal: 20
+  },
+  map: {
+    width: '100%',
+    height: '100%',
+},
+})

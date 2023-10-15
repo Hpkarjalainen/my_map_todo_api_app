@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, View, Text, Pressable } from 'react-native';
+import { View, Text, Pressable } from 'react-native';
 import CustomStyles from '../CustomStyles';
 
 const URL = 'https://api.chucknorris.io/jokes/random';

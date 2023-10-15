@@ -4,7 +4,7 @@ import CustomStyles from '../CustomStyles';
 
 export default function HomeScreen({ navigation }) {
     const buttonColor = '#3498db'; // Common color for all buttons
-    const pressedButtonColor = '#2980b9'; // Color for pressed state
+    const pressedButtonColor = '#2980b9'; 
 
     return (
         <View style={CustomStyles.container}>

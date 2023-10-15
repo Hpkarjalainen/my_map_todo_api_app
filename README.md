@@ -24,6 +24,7 @@ This is a simple React Native app that demonstrates various features and screens
    - The button style is consistent with the rest of the app.
 
 The App component serves as the entry point for the app and sets up navigation using React Navigation. It defines different screens that users can navigate to.
+CustomStyles.js is used to apply styling to the app.
 
 ## Screenshots
 

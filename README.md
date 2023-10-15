@@ -52,6 +52,6 @@ To use this app, follow these steps:
 - react-native-maps
 - @react-native-async-storage/async-storage
 
-- ## Source
+## Source
 
-This app was developed as part of a learning project. You can watch the tutorial on how to create react navigation on YouTube: [Tutorial Video](https://youtu.be/EYndFNKgpTA?si=xxFR9LW8kf_PFsut).
+This app was developed as part of a learning project. You can watch the tutorial on how to create react stack navigation on YouTube: [Tutorial Video](https://youtu.be/EYndFNKgpTA?si=xxFR9LW8kf_PFsut). Youtuber: MissCoding

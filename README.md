@@ -10,15 +10,15 @@ This is a simple React Native app that demonstrates various features and screens
 
 2. **Map Screen**
    - The map screen displays a map using `react-native-maps`.
-   - It uses the device's location to center the map.
    - Allows users to view their current position on the map.
+   - Location is retrieved when the component mounts using useEffect.
 
-3. **Random Facts Screen (Jokes)**
-   - The random facts screen fetches and displays random jokes from a Chuck Norris jokes API.
+3. **Jokes Screen**
+   - The jokes screen fetches and displays jokes from a Chuck Norris [Jokes API](https://api.chucknorris.io/jokes/random).
    - It includes a button for getting a new joke with a color change on press.
 
 4. **Todo Screen**
-   - The todo screen allows users to create and manage a list of todos.
+   - The todo screen allows users to create a list of todos.
    - Todos are stored using react native async storage-library
    - Users can add new todos and clear stored data.
    - The button style is consistent with the rest of the app.
